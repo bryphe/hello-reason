@@ -1,5 +1,5 @@
-(library
-  (name lib)
+(executable
+  (name Test)
   (flags (-w -40 -w +26))
   (public_name hello-reason)
   (libraries lambda-term lwt))
