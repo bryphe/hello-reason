@@ -1,0 +1,10 @@
+(library
+ (name Dynamic_lib)
+ (flags
+  (-w -40 -w +26))
+ (public_name hello-reason.dynamic_lib)
+ (libraries pastel.lib Lib))
+
+(install
+ (section bin)
+ (files Dynamic_lib.cmxs))
