@@ -4,3 +4,7 @@
   (-w -40 -w +26))
  (public_name hello-reason)
  (libraries pastel.lib))
+
+(install
+ (section bin)
+ (files lib.cmxs))
