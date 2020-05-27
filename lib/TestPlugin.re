@@ -3,10 +3,10 @@
 // This is the definition of our plugin, which defines the type [t] (in our case, it's a function that returns a string),
 // as well as a default implementation.
 module PluginDefinition = {
-	// The type is a unit that returns a string
-	type t = unit => string;
+  // The type is a unit that returns a string
+  type t = unit => string;
 
-	let default = () => "Default implementation, not dynlinked!";
+  let default = () => "Default implementation, not dynlinked!";
 };
 
 // Use our functor to create some modules - both the [dynlib] and the [app] have access to this module.
